@@ -2168,12 +2168,6 @@
 
   // Function to create and inject the Contributor Data card into the assistant menu
   const createContributorDataCard = () => {
-    // Disable entirely for Beta Studio as requested
-    if (window.location.hostname === 'curators-beta.musixmatch.com') {
-      debugLog('Beta Studio detected - Contributor Data Card disabled');
-      return;
-    }
-
     let retryCount = 0;
     const maxRetries = 30; // Try for up to 30 seconds
 
