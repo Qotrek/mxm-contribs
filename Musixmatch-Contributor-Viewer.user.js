@@ -2,8 +2,8 @@
 // @name         Musixmatch-Contributor-Viewer
 // @author       Bryce
 // @namespace    http://tampermonkey.net/
-// @version      5.5.3
-// @description  Fixed a bug where the script would show the contributor's name instead of their language in the latest contributor card + some other small fixes.
+// @version      5.5.4
+// @description  Small fixes + reenabled contributor data card in the beta studio.
 // @icon         https://raw.githubusercontent.com/bryyce19/mxm-contribs/refs/heads/main/img/finallogosquare.png
 // @match        https://curators.musixmatch.com/*
 // @match        https://curators-beta.musixmatch.com/*
